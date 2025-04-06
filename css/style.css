@@ -1,0 +1,113 @@
+/* Globalne ustawienia */
+body {
+    background: #1c1c57;
+    color: #ffffff;
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ustawia stopkę na dole */
+}
+
+/* Nagłówek */
+.site-header {
+    background: #32327c;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-logo {
+    height: 80px; /* Logo dostosowane do rozmiaru */
+    width: auto;
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Menu nawigacyjne */
+.main-nav {
+    background-color: #32327c;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #005a8d;
+    border-radius: 4px;
+}
+
+/* Główna treść strony */
+main {
+    padding: 20px;
+    flex: 1; /* Główna zawartość zajmuje pozostałą przestrzeń */
+}
+
+/* Stopka */
+footer {
+    background: #32327c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto; /* Stopka zawsze na dole */
+}
+
+/* Responsywność dla urządzeń mobilnych */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Logo i tytuł w kolumnie na małych ekranach */
+        text-align: center;
+    }
+
+    .header-logo {
+        height: 60px;
+    }
+
+    .main-nav ul {
+        flex-direction: column; /* Menu w kolumnie na małych ekranach */
+    }
+
+    .main-nav li {
+        margin-bottom: 10px;
+    }
+
+    .main-nav a {
+        padding: 15px;
+    }
+}
