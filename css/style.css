@@ -8,7 +8,8 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ustawia stopkę na dole */
+    min-height: 100vh;
+    /* Ustawia stopkę na dole */
 }
 
 /* Nagłówek */
@@ -27,7 +28,8 @@ body {
 }
 
 .header-logo {
-    height: 80px; /* Logo dostosowane do rozmiaru */
+    height: 80px;
+    /* Logo dostosowane do rozmiaru */
     width: auto;
 }
 
@@ -76,7 +78,8 @@ body {
 /* Główna treść strony */
 main {
     padding: 20px;
-    flex: 1; /* Główna zawartość zajmuje pozostałą przestrzeń */
+    flex: 1;
+    /* Główna zawartość zajmuje pozostałą przestrzeń */
 }
 
 /* Stopka */
@@ -85,13 +88,15 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    margin-top: auto; /* Stopka zawsze na dole */
+    margin-top: auto;
+    /* Stopka zawsze na dole */
 }
 
 /* Responsywność dla urządzeń mobilnych */
 @media (max-width: 768px) {
     .header-container {
-        flex-direction: column; /* Logo i tytuł w kolumnie na małych ekranach */
+        flex-direction: column;
+        /* Logo i tytuł w kolumnie na małych ekranach */
         text-align: center;
     }
 
@@ -100,7 +105,8 @@ footer {
     }
 
     .main-nav ul {
-        flex-direction: column; /* Menu w kolumnie na małych ekranach */
+        flex-direction: column;
+        /* Menu w kolumnie na małych ekranach */
     }
 
     .main-nav li {
@@ -126,5 +132,33 @@ footer {
 
     button:hover {
         background-color: #005a8d;
+    }
+
+    @keyframes fadeInMoveUp {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fade-in {
+        opacity: 0;
+        animation-name: fadeInMoveUp;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+        animation-delay: 0s;
+        /* domyślnie */
+    }
+
+    /* Opcjonalnie: opóźnienie */
+    .fade-in-delay {
+        animation: fadeInMoveUp 1s ease-out forwards;
+        animation-delay: 0.3s;
     }
 }
