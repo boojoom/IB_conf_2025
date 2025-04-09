@@ -133,32 +133,111 @@ footer {
     button:hover {
         background-color: #005a8d;
     }
+}
 
-    @keyframes fadeInMoveUp {
-        0% {
-            opacity: 0;
-            transform: translateY(50px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .fade-in {
+/* Animacje dostępne na wszystkich rozdzielczościach */
+@keyframes fadeInMoveUp {
+    0% {
         opacity: 0;
-        animation-name: fadeInMoveUp;
-        animation-duration: 1.2s;
-        animation-timing-function: ease-out;
-        animation-fill-mode: both;
-        animation-delay: 0s;
-        /* domyślnie */
+        transform: translateY(50px);
     }
 
-    /* Opcjonalnie: opóźnienie */
-    .fade-in-delay {
-        animation: fadeInMoveUp 1s ease-out forwards;
-        animation-delay: 0.3s;
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
+}
+
+.fade-in {
+    opacity: 0;
+    animation-name: fadeInMoveUp;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+.fade-in-delay {
+    opacity: 0;
+    animation-name: fadeInMoveUp;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-left {
+    opacity: 0;
+    animation: fadeInFromLeft 1.2s ease-out forwards;
+}
+
+.slide-in-left-delay {
+    opacity: 0;
+    animation: fadeInFromLeft 1.2s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.fade-delay-1 {
+    animation-delay: 0.1s;
+}
+
+.fade-delay-2 {
+    animation-delay: 0.2s;
+}
+
+.fade-delay-3 {
+    animation-delay: 0.3s;
+}
+
+.fade-delay-4 {
+    animation-delay: 0.4s;
+}
+
+.fade-delay-5 {
+    animation-delay: 0.5s;
+}
+
+.fade-delay-6 {
+    animation-delay: 0.6s;
+}
+
+.fade-delay-7 {
+    animation-delay: 0.7s;
+}
+
+.fade-delay-8 {
+    animation-delay: 0.8s;
+}
+
+.fade-delay-9 {
+    animation-delay: 0.9s;
 }

@@ -4,7 +4,7 @@
 <main class="container mt-5">
     <div class="row align-items-start">
         <!-- Lewa kolumna: tytuł + opis + karta -->
-        <div class="col-12 col-md-8 fade-in" style="animation-delay: 2s; animation-fill-mode: both;">
+        <div class="col-12 col-md-8 fade-in" style="animation-delay: 0.1s; animation-fill-mode: both;">
             <h2 class="mb-3">Witamy na konferencji IB Conference!</h2>
             <p class="mb-4">Opis konferencji, informacje o programie, prelegentach itp. Zawartość strony.</p>
 
@@ -25,7 +25,7 @@
 
         <!-- Prawa kolumna: obrazek -->
         <div class="col-12 col-md-4 text-center fade-in" style="
-    animation-delay: 0.9s; 
+    animation-delay: 0.3s; 
     animation-duration: 1.2s; 
     animation-fill-mode: both; 
     animation-name: fadeInMoveUp; 
