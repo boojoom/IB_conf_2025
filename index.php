@@ -32,7 +32,7 @@ include('includes/navbar.php');
             animation-name: fadeInMoveUp; 
             animation-timing-function: ease-out;">
             <img 
-                src="images/freepik__upload__68098.png" 
+                src="images/1.png"
                 alt="Photo" 
                 class="img-fluid rounded shadow-lg" 
                 style="max-width: 365px; height: auto;"

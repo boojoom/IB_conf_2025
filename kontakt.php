@@ -39,7 +39,7 @@ include("includes/navbar.php");
 
         <!-- Image -->
         <div class="col-md-6 text-center fade-in-up fade-delay-2">
-        <img src="images/mail.png" 
+        <img src="images/2.png"
      alt="<?php echo $lang['contact_alt']; ?>" 
      class="img-fluid mt-4 mt-md-0"
      style="max-width: 100%; height: auto; background-color: transparent; border: none; box-shadow: none;" />

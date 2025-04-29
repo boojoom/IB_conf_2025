@@ -28,7 +28,7 @@ include('includes/navbar.php');
 
         <!-- Right column: image -->
         <div class="col-12 col-md-6 text-center" style="animation-duration: 1.2s; animation-fill-mode: both; animation-name: fadeInMoveUp; animation-timing-function: ease-out;">
-            <img src="images/form_image.png" 
+            <img src="images/3.png"
                  alt="Registration illustration" 
                  class="img-fluid rounded shadow-lg" 
                  style="max-width: 100%; height: auto; background-color: #32327C;">

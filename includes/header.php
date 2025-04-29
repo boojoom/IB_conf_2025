@@ -11,8 +11,8 @@ if (isset($_GET['lang'])) {
     <!-- Your custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <div class="header-container container py-3 d-flex align-items-center gap-3">
-        <img src="images/logo_<?php echo $lang; ?>_W.png" alt="WUST logo" class="header-logo" style="height: 50px;">
-        <h1 class="header-title mb-0">CYBER</h1>
+    <div class="header-container container py-3 d-flex align-items-center">
+        <img src="images/logo_<?php echo $lang; ?>_W.png" alt="WUST logo" class="header-logo">
+        <img src="images/CYBER.png" alt="CYBER logo" class="header-logo">
     </div>
 </header>
