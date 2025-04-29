@@ -16,7 +16,7 @@ include('includes/navbar.php');
         <!-- Left column: title + description + card -->
         <div class="col-12 col-md-8 fade-in" style="animation-delay: 0.1s; animation-fill-mode: both;">
             <h2 class="mb-3"><?php echo $lang['welcome_heading']; ?></h2>
-            <p class="mb-4"><?php echo $lang['welcome_intro']; ?></p>
+            
 
             <div class="card text-light p-4" style="background-color: #32327C;">
                 <p><?php echo $lang['welcome_text_1']; ?></p>

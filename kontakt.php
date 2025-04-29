@@ -42,7 +42,7 @@ include("includes/navbar.php");
         <img src="images/2.png"
      alt="<?php echo $lang['contact_alt']; ?>" 
      class="img-fluid mt-4 mt-md-0"
-     style="max-width: 100%; height: auto; background-color: transparent; border: none; box-shadow: none;" />
+     style="max-width: 60%; height: auto; background-color: transparent; border: none; box-shadow: none;" />
 
         </div>
     </div>

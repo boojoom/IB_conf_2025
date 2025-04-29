@@ -11,43 +11,24 @@ include("includes/header.php");
 include("includes/navbar.php");
 ?>
 
-<main class="container py-5">
-    <h2 class="text-center mb-5 fade-in-up"><?php echo $lang['organizing_committee']; ?></h2>
-
-    <div class="row justify-content-center">
-        <!-- Organizer 1 -->
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up fade-delay-1">
-            <div class="card bg-dark text-white shadow-sm h-100 text-center rounded-4 overflow-hidden">
-                <img src="images/avatar.jpg" class="card-img-top img-fluid" alt="Organizer 1">
-                <div class="card-body" style="background-color: #32327C;">
-                    <h5 class="card-title mb-2">Anna Kowalska</h5>
-                    <p class="card-text mb-4"><?php echo $lang['coordinator']; ?></p>
+<main class="container py-5" style="border-radius: 12px; max-width: 1000px;">
+    <h2 class="text-center text-white mb-5 slide-in-top"><?php echo $lang['organizing_committee']; ?></h2>
+    
+    <div class="row justify-content-center g-4">
+    <?php foreach ($lang['committee_members'] as $member): ?>
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+            <div class="card shadow-sm w-100" style="background-color: #32327c; color: white; border-radius: 12px; min-height: 150px;">
+                <div class="card-body d-flex flex-column justify-content-center text-center">
+                    <h5 class="card-title mb-2"><?php echo $member['name']; ?></h5>
+                    <p class="card-text"><?php echo $member['role']; ?></p>
                 </div>
             </div>
         </div>
+    <?php endforeach; ?>
+</div>
 
-        <!-- Organizer 2 -->
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up fade-delay-2">
-            <div class="card bg-dark text-white shadow-sm h-100 text-center rounded-4 overflow-hidden">
-                <img src="images/avatar.jpg" class="card-img-top img-fluid" alt="Organizer 2">
-                <div class="card-body" style="background-color: #32327C;">
-                    <h5 class="card-title mb-2">Michał Nowak</h5>
-                    <p class="card-text mb-4"><?php echo $lang['logistics']; ?></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Organizer 3 -->
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up fade-delay-3">
-            <div class="card bg-dark text-white shadow-sm h-100 text-center rounded-4 overflow-hidden">
-                <img src="images/avatar.jpg" class="card-img-top img-fluid" alt="Organizer 3">
-                <div class="card-body" style="background-color: #32327C;">
-                    <h5 class="card-title mb-2">Julia Wiśniewska</h5>
-                    <p class="card-text mb-4"><?php echo $lang['media']; ?></p>
-                </div>
-            </div>
-        </div>
-    </div>
 </main>
+
+
 
 <?php include("includes/footer.php"); ?>

@@ -9,18 +9,17 @@ $lang = array(
     "language" => "Język",
     "contact" => "Kontakt",
 
-    "welcome_heading" => "Witamy na konferencji IB!",
-    "welcome_intro" => "Przegląd konferencji, informacje o programie, prelegentach i więcej.",
-    "welcome_text_1" => "Konferencja IB to wyjątkowe wydarzenie gromadzące specjalistów z dziedzin bioinformatyki, biologii molekularnej, informatyki oraz inżynierii danych. Podczas konferencji uczestnicy będą mogli wziąć udział w wykładach, warsztatach i panelach dyskusyjnych prowadzonych przez uznanych prelegentów z Polski i zagranicy.",
-    "welcome_text_2" => "Naszym celem jest stworzenie przestrzeni do wymiany wiedzy, prezentacji najnowszych osiągnięć naukowych oraz rozwoju współpracy interdyscyplinarnej. Zachęcamy studentów, doktorantów, naukowców i przedstawicieli przemysłu do aktywnego udziału w tym inspirującym wydarzeniu.",
+    "welcome_heading" => "Konferencja Doktorancka CYBER — Conference for Young Biomedical Engineering Researchers",
+    "welcome_text_1" => "Zapraszamy na Konferencję Doktorancką CYBER — wyjątkowe wydarzenie łączące młodych badaczy, doktorantów, studentów oraz specjalistów w dziedzinie inżynierii biomedycznej. Nasze zainteresowania obejmują takie obszary jak: neuronauka, optyka, obrazowanie medyczne, bioinformatyka, projektowanie leków, biomateriały oraz technologie przeciwdrobnoustrojowe. CYBER to przestrzeń do wymiany wiedzy i doświadczeń płynących z interdyscyplinarnej pracy naukowej. Chcemy zaprezentować najnowsze osiągnięcia naszej Katedry oraz zainspirować młodych badaczy do rozpoczęcia własnej drogi doktorskiej.",
+    "welcome_text_2" => "Podczas wykładów i dyskusji poszerzysz swoją wiedzę, poznasz najnowsze trendy w inżynierii biomedycznej i dowiesz się, jak możesz rozwijać swoją karierę naukową. Mamy nadzieję, że to właśnie tu znajdziesz motywację do podjęcia nowych wyzwań badawczych! Dołącz do nas! Wystarczy wypełnić formularz rejestracyjny. Widzimy się już 23 czerwca 2025 roku!",
 
     "announcements" => "Aktualności",
     "announcement_1_title" => "📅 Otwarcie rejestracji",
     "announcement_1_text" => "Rejestracja na konferencję IB 2025 rozpocznie się 15 maja. Zachęcamy do wcześniejszego zgłoszenia!",
     "announcement_2_title" => "🎤 Lista prelegentów",
     "announcement_2_text" => "Z dumą ogłaszamy, że wykłady inauguracyjne wygłoszą prof. Anna Nowak i dr Michał Kowalski.",
-    "announcement_3_title" => "🧪 Warsztaty tematyczne",
-    "announcement_3_text" => "W tym roku przygotowaliśmy 5 praktycznych warsztatów z zakresu bioinformatyki i analizy danych. Liczba miejsc ograniczona!",
+    // "announcement_3_title" => "🧪 Warsztaty tematyczne",
+    // "announcement_3_text" => "W tym roku przygotowaliśmy 5 praktycznych warsztatów z zakresu bioinformatyki i analizy danych. Liczba miejsc ograniczona!",
 
     "program_of_conf" => "Program Konferencji",
     "time" => "Godzina",
@@ -48,7 +47,14 @@ $lang = array(
     "contact_email" => "Adres e-mail",
     "contact_message" => "Wiadomość",
     "contact_send" => "Wyślij wiadomość",
-    "contact_alt" => "Ilustracja kontaktu"
+    "contact_alt" => "Ilustracja kontaktu",
+
+    "committee_members" => [
+    ["name" => "Zofia Dobrowolska", "role" => "Główny koordynator"],
+    ["name" => "Beata Borysiuk", "role" => "Media"],
+    ["name" => "Damian Pawłowski", "role" => "Marketing"]
+],
+
 
 );
 ?>

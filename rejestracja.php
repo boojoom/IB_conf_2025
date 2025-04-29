@@ -31,7 +31,7 @@ include('includes/navbar.php');
             <img src="images/3.png"
                  alt="Registration illustration" 
                  class="img-fluid rounded shadow-lg" 
-                 style="max-width: 100%; height: auto; background-color: #32327C;">
+                 style="max-width: 80%; height: auto; background-color: #32327C;">
         </div>
     </div>
 </main>

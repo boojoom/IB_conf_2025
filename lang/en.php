@@ -9,28 +9,27 @@ $lang = array(
     "language" => "Language",
     "contact" => "Contact",
 
-    "welcome_heading" => "Welcome to the IB Conference!",
-    "welcome_intro" => "An overview of the conference, information about the program, speakers, and more.",
-    "welcome_text_1" => "The IB Conference is a unique event that brings together specialists from the fields of bioinformatics, molecular biology, computer science, and data engineering. During the conference, participants will be able to attend a variety of lectures, workshops, and discussion panels led by renowned speakers from Poland and abroad.",
-    "welcome_text_2" => "Our goal is to create a space for knowledge exchange, the presentation of the latest scientific achievements, and the development of interdisciplinary collaboration. We encourage students, PhD candidates, researchers, and industry representatives to actively take part in this inspiring event.",
+    "welcome_heading" => "CYBER PhD Conference — Conference for Young Biomedical Engineering Researchers",
+    "welcome_text_1" => "We invite you to the CYBER PhD Conference — a unique event bringing together young researchers, PhD students, undergraduate students, and specialists in the field of biomedical engineering. Our interests span neuroscience, optics, medical imaging, bioinformatics, drug design, biomaterials, and antimicrobial technologies. CYBER is a platform for sharing knowledge and experience gained through interdisciplinary scientific work. We aim to showcase the latest research achievements from our Department and inspire young scientists to embark on their own PhD journey.",
+    "welcome_text_2" => "By attending lectures and discussions, you will broaden your knowledge, stay up-to-date with the latest developments in biomedical engineering, and discover exciting directions for your future scientific career. We hope to spark your passion for research and innovation! Join us by filling out the registration form. See you on June 23, 2025!",
 
     "announcements" => "Announcements",
     "announcement_1_title" => "📅 Registration Opening",
     "announcement_1_text" => "Registration for IB Conference 2025 will begin on May 15. We encourage you to register early!",
     "announcement_2_title" => "🎤 Speaker List",
     "announcement_2_text" => "We are proud to announce that Prof. Anna Nowak and Dr. Michał Kowalski will deliver the keynote lectures at the conference.",
-    "announcement_3_title" => "🧪 Thematic Workshops",
-    "announcement_3_text" => "This year we have prepared 5 hands-on workshops in bioinformatics and data analysis. The number of spots is limited!",
+    // "announcement_3_title" => "🧪 Thematic Workshops",
+    // "announcement_3_text" => "This year we have prepared 5 hands-on workshops in bioinformatics and data analysis. The number of spots is limited!",
 
     "program_of_conf" => "Conference Program",
     "time" => "Time",
     "event" => "Event",
-    "opening" => "Conference Opening",
-    "session1" => "First Presentation Session",
+    "opening" => "Conference Opening (5–10 min); possibly guest lecture (20 min)",
+    "session1" => "First Presentation Session (1h 30 min; 7/8 presentations)",
     "coffee" => "<strong>Coffee Break</strong>",
-    "session2" => "Second Presentation Session",
-    "session3" => "Third Presentation Session <br><span class='text-muted'>(7/8 presentations)</span>",
+    "session2" => "Second Presentation Session (1h 30 min; 7/8 presentations)",
     "lunch" => "<strong>Lunch</strong> <br><span class='text-muted'>(for speakers and professors only)</span>",
+    "session3" => "Third Presentation Session (1h 30 min; 7/8 presentations)",
     "session4" => "Fourth Presentation Session <br><span class='text-muted'>(7/8 presentations)</span>",
     "closing" => "Awards, Summary, Conference Closing",
 
@@ -48,7 +47,13 @@ $lang = array(
     "contact_email" => "Email Address",
     "contact_message" => "Message",
     "contact_send" => "Send Message",
-    "contact_alt" => "Contact illustration"
+    "contact_alt" => "Contact illustration",
+
+    "committee_members" => [
+        ["name" => "Zofia Dobrowolska", "role" => "Main coordinator"],
+        ["name" => "Beata Borysiuk", "role" => "Media"],
+        ["name" => "Damian Pawłowski", "role" => "Marketing"]
+],
 
 
 );

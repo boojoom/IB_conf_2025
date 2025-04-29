@@ -39,17 +39,17 @@ include("includes/navbar.php");
                         <td>11:30–13:00</td>
                         <td><?php echo $lang['session2']; ?></td>
                     </tr>
-                    <tr class="fade-in-up fade-delay-5">
-                        <td>13:00–13:30</td>
-                        <td><?php echo $lang['coffee']; ?></td>
+                    <tr class="fade-in-up fade-delay-7">
+                        <td>13:00–14:00</td>
+                        <td><?php echo $lang['lunch']; ?></td>
                     </tr>
                     <tr class="fade-in-up fade-delay-6">
-                        <td>13:30–15:00</td>
+                        <td>14:00–15:30</td>
                         <td><?php echo $lang['session3']; ?></td>
                     </tr>
-                    <tr class="fade-in-up fade-delay-7">
-                        <td>15:00–16:00</td>
-                        <td><?php echo $lang['lunch']; ?></td>
+                    <tr class="fade-in-up fade-delay-5">
+                        <td>15:30–16:00</td>
+                        <td><?php echo $lang['coffee']; ?></td>
                     </tr>
                     <tr class="fade-in-up fade-delay-8">
                         <td>16:00–17:30</td>
