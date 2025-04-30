@@ -34,7 +34,7 @@ $lang = array(
     "closing" => "Nagrody, podsumowanie, zakończenie konferencji",
 
     "registration_on_conf" => "Rejestracja na konferencję",
-    "registration_intro" => "Zarejestruj się już dziś na naszą <strong>Konferencję IB</strong>! Kliknij poniższy przycisk, aby przejść do formularza rejestracyjnego i zapoznać się ze szczegółami dotyczącymi udziału.",
+    "registration_intro" => "Zarejestruj się już dziś na konferencję <strong>CYBER</strong>! Kliknij poniższy przycisk, aby przejść do formularza rejestracyjnego i zapoznać się ze szczegółami dotyczącymi udziału.",
     "registration_button" => "Zarejestruj się tutaj",
 
     "organizing_committee" => "Komitet organizacyjny",

@@ -34,7 +34,7 @@ $lang = array(
     "closing" => "Awards, Summary, Conference Closing",
 
     "registration_on_conf" => "Conference Registration",
-    "registration_intro" => "Register now for our <strong>IB Conference</strong>! Click the button below to access the registration form, where you’ll find all the details about participation.",
+    "registration_intro" => "Register to <strong>CYBER</strong> now! Click the button below to access the registration form, where you’ll find all the details about participation.",
     "registration_button" => "Register Here",
 
     "organizing_committee" => "Organizing Committee",
