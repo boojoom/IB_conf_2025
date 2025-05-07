@@ -1,4 +1,5 @@
 <?php
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -20,7 +21,7 @@ include(__DIR__ . '/../lang/' . $_SESSION['lang'] . '.php');
     <ul>
         <li><a href="index.php"><?php echo $lang['home']; ?></a></li>
         <li><a href="program.php"><?php echo $lang['program']; ?></a></li>
-        <li><a href="../rejestracja.php"><?php echo $lang['registration']; ?></a></li>
+        <li><a href="rejestracja.php"><?php echo $lang['registration']; ?></a></li>
         <li><a href="organizatorzy.php"><?php echo $lang['organizers']; ?></a></li>
         <li><a href="kontakt.php"><?php echo $lang['contact'] ?? 'Contact'; ?></a></li>
         <li style="float:right;">

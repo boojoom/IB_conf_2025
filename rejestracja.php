@@ -1,5 +1,6 @@
 <?php
-session_start();
+include 'includes/init.php';
+
 if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = 'pl';
 }
@@ -7,6 +8,23 @@ if (isset($_GET['lang'])) {
     $_SESSION['lang'] = $_GET['lang'];
 }
 include(__DIR__ . '/lang/' . $_SESSION['lang'] . '.php');
+?>
+
+<!DOCTYPE html>
+<html lang="<?php echo $_SESSION['lang']; ?>">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $lang['registration_on_conf']; ?> - <?php echo $lang['title']; ?></title>
+    <meta name="description" content="<?php echo $lang['registration_intro']; ?>">
+    <meta name="keywords" content="Rejestracja, Konferencja, Cyberbezpieczeństwo">
+    <meta name="author" content="Adam Gruda">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Import CSS -->
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+
+<?php
 include('includes/header.php');
 include('includes/navbar.php');
 ?>
@@ -27,7 +45,11 @@ include('includes/navbar.php');
         </div>
 
         <!-- Right column: image -->
-        <div class="col-12 col-md-6 text-center" style="animation-duration: 1.2s; animation-fill-mode: both; animation-name: fadeInMoveUp; animation-timing-function: ease-out;">
+        <div class="col-12 col-md-6 text-center" style="
+            animation-duration: 1.2s; 
+            animation-fill-mode: both; 
+            animation-name: fadeInMoveUp; 
+            animation-timing-function: ease-out;">
             <img src="images/3.png"
                  alt="Registration illustration" 
                  class="img-fluid rounded shadow-lg" 
@@ -37,3 +59,6 @@ include('includes/navbar.php');
 </main>
 
 <?php include('includes/footer.php'); ?>
+
+</body>
+</html>

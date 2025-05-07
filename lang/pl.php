@@ -1,5 +1,8 @@
 <?php
 $lang = array(
+
+    'description' => "Konferencja Doktorska CYBER to wyjątkowe wydarzenie dla młodych badaczy inżynierii biomedycznej. Stanowi platformę wymiany wiedzy i doświadczeń, prezentacji najnowszych osiągnięć badawczych i inspirowania młodych naukowców do rozpoczęcia własnej drogi doktoranckiej.",
+
     "title" => "Konferencja Bioinformatyczna 2025",
     "home" => "Strona główna",
     "organizers" => "Organizatorzy",

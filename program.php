@@ -1,5 +1,6 @@
 <?php
-session_start();
+include 'includes/init.php';
+
 if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = 'pl';
 }
@@ -7,6 +8,23 @@ if (isset($_GET['lang'])) {
     $_SESSION['lang'] = $_GET['lang'];
 }
 include(__DIR__ . '/lang/' . $_SESSION['lang'] . '.php');
+?>
+
+<!DOCTYPE html>
+<html lang="<?php echo $_SESSION['lang']; ?>">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $lang['program_of_conf']; ?> - <?php echo $lang['title']; ?></title>
+    <meta name="description" content="<?php echo $lang['description']; ?>">
+    <meta name="keywords" content="Program, Konferencja, Cyberbezpieczeństwo">
+    <meta name="author" content="Adam Gruda">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Import CSS -->
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+
+<?php
 include("includes/header.php");
 include("includes/navbar.php");
 ?>
@@ -39,7 +57,7 @@ include("includes/navbar.php");
                         <td>11:30–13:00</td>
                         <td><?php echo $lang['session2']; ?></td>
                     </tr>
-                    <tr class="fade-in-up fade-delay-7">
+                    <tr class="fade-in-up fade-delay-5">
                         <td>13:00–14:00</td>
                         <td><?php echo $lang['lunch']; ?></td>
                     </tr>
@@ -47,7 +65,7 @@ include("includes/navbar.php");
                         <td>14:00–15:30</td>
                         <td><?php echo $lang['session3']; ?></td>
                     </tr>
-                    <tr class="fade-in-up fade-delay-5">
+                    <tr class="fade-in-up fade-delay-7">
                         <td>15:30–16:00</td>
                         <td><?php echo $lang['coffee']; ?></td>
                     </tr>
@@ -66,3 +84,6 @@ include("includes/navbar.php");
 </main>
 
 <?php include("includes/footer.php"); ?>
+
+</body>
+</html>

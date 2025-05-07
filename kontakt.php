@@ -1,5 +1,6 @@
 <?php
-session_start();
+include 'includes/init.php';
+
 if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = 'pl';
 }
@@ -7,6 +8,23 @@ if (isset($_GET['lang'])) {
     $_SESSION['lang'] = $_GET['lang'];
 }
 include(__DIR__ . '/lang/' . $_SESSION['lang'] . '.php');
+?>
+
+<!DOCTYPE html>
+<html lang="<?php echo $_SESSION['lang']; ?>">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $lang['contact']; ?> - <?php echo $lang['title']; ?></title>
+    <meta name="description" content="<?php echo $lang['contact_intro']; ?>">
+    <meta name="keywords" content="Kontakt, Cyberbezpieczeństwo, Konferencja">
+    <meta name="author" content="Adam Gruda">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Import CSS -->
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+
+<?php
 include("includes/header.php");
 include("includes/navbar.php");
 ?>
@@ -39,13 +57,15 @@ include("includes/navbar.php");
 
         <!-- Image -->
         <div class="col-md-6 text-center fade-in-up fade-delay-2">
-        <img src="images/2.png"
-     alt="<?php echo $lang['contact_alt']; ?>" 
-     class="img-fluid mt-4 mt-md-0"
-     style="max-width: 60%; height: auto; background-color: transparent; border: none; box-shadow: none;" />
-
+            <img src="images/2.png"
+                alt="<?php echo $lang['contact_alt']; ?>" 
+                class="img-fluid mt-4 mt-md-0"
+                style="max-width: 60%; height: auto; background-color: transparent; border: none; box-shadow: none;" />
         </div>
     </div>
 </main>
 
 <?php include("includes/footer.php"); ?>
+
+</body>
+</html>
