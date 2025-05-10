@@ -20,6 +20,7 @@ include(__DIR__ . '/../lang/' . $_SESSION['lang'] . '.php');
 <nav class="main-nav">
     <ul>
         <li><a href="index.php"><?php echo $lang['home']; ?></a></li>
+        <li><a href="aktualności.php"><?php echo $lang['announcements']; ?></a></li>
         <li><a href="program.php"><?php echo $lang['program']; ?></a></li>
         <li><a href="rejestracja.php"><?php echo $lang['registration']; ?></a></li>
         <li><a href="organizatorzy.php"><?php echo $lang['organizers']; ?></a></li>
