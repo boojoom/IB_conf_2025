@@ -38,6 +38,15 @@ include('includes/navbar.php');
             <h2 class="mb-3"><?php echo $lang['welcome_heading']; ?></h2>
             
             <div class="card text-light p-4" style="background-color: #32327C;">
+                <p><?php echo $lang['welcome_important_title']; ?></p>
+                <p><?php echo $lang['welcome_important_text1']; ?></p>
+                <p><?php echo $lang['welcome_important_text2']; ?></p>
+            </div>
+            <div class="card text-light p-4" style="background-color: #32327C;">
+                <p><?php echo $lang['welcome_important_title']; ?></p>
+                <p><?php echo $lang['welcome_important_text2']; ?></p>
+            </div>
+            <div class="card text-light p-4" style="background-color: #32327C;">
                 <p><?php echo $lang['welcome_text_1']; ?></p>
                 <p><?php echo $lang['welcome_text_2']; ?></p>
             </div>
