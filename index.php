@@ -49,6 +49,8 @@ include('includes/navbar.php');
             <div class="card text-light p-4" style="background-color: #32327C;">
                 <p><?php echo $lang['welcome_text_1']; ?></p>
                 <p><?php echo $lang['welcome_text_2']; ?></p>
+                <p><?php echo $lang['welcome_important_title']; ?></p>
+                <p><?php echo $lang['welcome_important_text1']; ?></p>
             </div>
         </div>
 
