@@ -39,7 +39,7 @@ $lang = array(
     "coffee" => "Przerwa kawowa",
     "session2" => "Neuronauka",
     "session3" => "Biomateriały, obrazowanie biomedyczne i technologie diagnostyczne",
-    "lunch" => "<strong >Lunch</strong> <br><span class='text-muted'>(tylko dla prelegentów i profesorów)</span>",
+    "lunch" => "<strong >Lunch</strong> <br><span class='text-muted'>(tylko dla prelegentów i zaproszonych gości)</span>",
     "session4" => "Bioinformatyka i medycyna molekularna",
     "closing" => "Nagrody, podsumowanie, zakończenie konferencji",
 
