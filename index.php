@@ -21,6 +21,8 @@ include(__DIR__ . '/lang/' . $_SESSION['lang'] . '.php');
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Import CSS -->
     <link href="css/default.css" rel="stylesheet" />
+    <link rel="icon" href="images/CYBER.png" type="image/png">
+
 </head>
 <body>
 

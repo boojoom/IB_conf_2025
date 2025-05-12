@@ -3,7 +3,7 @@ $lang = array(
 
     "description" => "The CYBER PhD Conference is a unique event for young researchers in biomedical engineering. It provides a platform for sharing knowledge and experience, showcasing the latest research achievements, and inspiring young scientists to embark on their own PhD journey.",
 
-    "title" => "Bioinformatics Conference 2025",
+    "title" => "CYBER — Conference for Young Biomedical Engineering Researchers",
     "home" => "Home",
     "organizers" => "Organizers",
     "registration" => "Registration",
