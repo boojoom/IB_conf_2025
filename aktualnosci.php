@@ -31,7 +31,7 @@ include("includes/navbar.php");
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $lang['announcement_2_title']; ?></h5>
                         <p class="card-text"><?php echo $lang['announcement_2_text']; ?></p>
-                        <a href="https://bioorganic.pwr.edu.pl/people/monika-szefczyk"><?php echo $lang['announcement_2_link']; ?></a>
+                        <a href="https://bioorganic.pwr.edu.pl/people/monika-szefczyk" style="color: #1FA581"><?php echo $lang['announcement_2_link']; ?></a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ include("includes/navbar.php");
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $lang['announcement_3_title']; ?></h5>
                         <p class="card-text"><?php echo $lang['announcement_3_text']; ?></p>
-                        <a href="https://www.facebook.com/events/1820904282082616?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D">CYBER 2025</a>
+                        <a href="https://www.facebook.com/events/1820904282082616?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D" style="color: #1FA581">CYBER 2025</a>
                     </div>
                 </div>
             </div>

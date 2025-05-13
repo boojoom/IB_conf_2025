@@ -39,7 +39,7 @@ include("includes/navbar.php");
                     <div class="card-body d-flex flex-column justify-content-center text-center">
                         <h5 class="card-title mb-2"><?php echo $member['name']; ?></h5>
                         <p class="card-text"><?php echo $member['role']; ?></p>
-                        <p class="card-text"> <a href="mailto:<?php echo $member['email']; ?>"><?php echo $member['email']; ?></a></p>
+                        <p class="card-text"> <a href="mailto:<?php echo $member['email'];?>" style="color: #1FA581"><?php echo $member['email']; ?></a></p>
                     </div>
                 </div>
             </div>
